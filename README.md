@@ -19,6 +19,29 @@ In this project, LSTM models are used to understand the context and relationship
 
 To set up the environment and dependencies for this project, follow these steps:
 
-1. Clone the repository:
+Clone the repository:
    ```bash
    git clone https://github.com/Piyush20-11/Abstractive-Text-Summarization.git
+   ```
+
+## Model Architecture
+This project utilizes an LSTM-based sequence-to-sequence model for summarization. It consists of:
+
+Encoder: Encodes the input sequence (document) using LSTM layers.
+Decoder: Generates the summary sequence using another set of LSTM layers.
+Attention Mechanism: Improves the model by focusing on relevant parts of the input sequence during decoding, which enhances the quality of the summaries.
+
+## Dataset
+You can use any suitable dataset for abstractive summarization. Some commonly used datasets include:
+
+CNN/Daily Mail Dataset
+XSum Dataset
+
+## Results
+The LSTM model's performance is evaluated using ROUGE scores, a standard metric for summarization. The results will help assess how well the model is generating meaningful and accurate summaries.
+
+## Contributing
+Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
